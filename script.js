@@ -7,7 +7,7 @@ btn.addEventListener('click', function () {
 
   const randImg = Math.trunc(Math.random() * 604) + 1;
 
-  img.src = `/img/${randImg}.gif`;
+  img.src = `img/${randImg}.gif`;
 
   if (btn) {
     btn.textContent = 'اقرأ ورد آخر';
